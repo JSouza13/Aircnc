@@ -54,7 +54,7 @@ button {
   flex-direction: column;
 }
 
-.content from label {
+.content form label {
   font-size: 14px;
   color: #444;
   font-weight: bold;
@@ -81,4 +81,8 @@ button {
   background: #f05a5b;
   color: #fff;
   cursor: pointer;
+}
+
+.content button.btn:hover {
+  background: #e14f50;
 }
